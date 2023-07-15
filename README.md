@@ -57,6 +57,6 @@ The graph's height indicates the degree of correlation between the two images, w
 
 The entire process has also involved utilizing the rotated IC image to identify the rotated ICs on the PCB.
 
-In the end, the matching result is shown below:
+Finally, the matching result is displayed below:
 
 <img src="/readme_images/result.jpg">
