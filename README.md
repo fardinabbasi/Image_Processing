@@ -54,3 +54,9 @@ and the correlation diagram is shown below:
 <img src="/readme_images/corr2d.jpg">
 
 The graph's height indicates the degree of correlation between the two images, with the highest peaks observed at two locations that contain the IC. Based on the provided diagram, a **threshold** value of 0.75 has been set.
+
+The entire process has also involved utilizing the rotated IC image to identify the rotated ICs on the PCB.
+
+In the end, the matching result is shown below:
+
+<img src="/readme_images/result.jpg">
