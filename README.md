@@ -2,8 +2,8 @@
 Finding an Electrical Element(BA3240) on a PCB with **2D Correlation**.
 
 <div style="display: flex;">
-  <img src="/readme_images/PCB.jpg">
-  <img src="/readme_images/BA3240.png">
+  <img src="./doc/PCB.jpg">
+  <img src="./doc/BA3240.png">
 </div>
 
 ## Implementation
@@ -19,7 +19,7 @@ function B = rgb_to_gray(A)
 end
 ```
 To locate the IC on the PCB, a 2D correlation is employed, with its formula described below.
-<img src="/readme_images/coeff.jpg">
+<img src="./doc/coeff.jpg">
 
 Additionally, the following code implements the aforementioned process.
 ```ruby
@@ -51,7 +51,7 @@ end
 ```
 and the correlation diagram is shown below:
 
-<img src="/readme_images/corr2d.jpg">
+<img src="./doc/corr2d.jpg">
 
 The graph's height indicates the degree of correlation between the two images, with the highest peaks observed at two locations that contain the IC. Based on the provided diagram, a **threshold** value of 0.75 has been set.
 
@@ -59,4 +59,11 @@ The entire process has also involved utilizing the rotated IC image to identify 
 
 Finally, the matching result is displayed below:
 
-<img src="/readme_images/result.jpg">
+<img src="./doc/result.jpg">
+
+## Course Description
+- **Course**: Signals and Systems [ECE 538]
+- **Semester**: Spring 2022
+- **Institution:** [School of Electrical & Computer Engineering](https://ece.ut.ac.ir/en/), [College of Engineering](https://eng.ut.ac.ir/en), [University of Tehran](https://ut.ac.ir/en)
+- **Instructors:** Dr. Akhavan
+- **Contributors:** [Fardin Abbasi](https://github.com/fardinabbasi), Iman Rasouli-Parto, Parsa Sattari
